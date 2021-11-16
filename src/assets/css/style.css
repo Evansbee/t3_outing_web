@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: College;
+      font-weight: 700;
+      src: url(/assets/font/college.woff2) format("woff2"),url(/assets/font/college.woff) format("woff")
+    }
+
+      @font-face {
+        font-family: Avenir;
+        font-weight: 500;
+        src: url(/assets/font/avenir.woff2) format("woff2"),url(/assets/font/avenir.woff) format("woff")
+      }
+
+  }

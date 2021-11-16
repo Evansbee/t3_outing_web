@@ -1,27 +1,15 @@
 {
-  "name": "t3-landing-page",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "t3-landing",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Evansbee/t3_outing_web.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Evansbee/t3_outing_web/issues"
-  },
-  "homepage": "https://github.com/Evansbee/t3_outing_web#readme",
-  "dependencies": {
-    "tailwind": "^2.4.1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4"
   }
 }

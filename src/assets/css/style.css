@@ -3,16 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-      font-family: College;
-      font-weight: 700;
-      src: url(/assets/font/college.woff2) format("woff2"),url(/assets/font/college.woff) format("woff")
-    }
-
-      @font-face {
-        font-family: Avenir;
-        font-weight: 500;
-        src: url(/assets/font/avenir.woff2) format("woff2"),url(/assets/font/avenir.woff) format("woff")
-      }
-
+  @font-face {
+    font-family: College;
+    font-weight: 700;
+    src: url(/assets/font/college.ttf) format("truetype");
   }
+  @font-face {
+    font-family: Graduate;
+    font-weight: 400;
+    src: url("/assets/font/Graduate-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Avenir;
+    font-weight: 500;
+    src: url(/assets/font/avenir.woff2) format("woff2"), url(/assets/font/avenir.woff) format("woff");
+  }
+}

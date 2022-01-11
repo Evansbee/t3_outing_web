@@ -1,9 +1,8 @@
 module.exports = {
-  purge: ['/src/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./src/*.html'],
   theme: {
     extend: { fontFamily: {
-      serif: ['College','sans-serif'],
+      serif: ['Graduate','College','sans-serif'],
       sans: ['Avenir','sans']
     }
   },
@@ -12,6 +11,5 @@ module.exports = {
     extend: {
      
     },
-  },
-  plugins: [require('@tailwindcss/forms')],
+  }
 }
